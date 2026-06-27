@@ -7,7 +7,7 @@ export default function AboutModal({ isOpen, onClose }) {
   
           <div className="flex items-center justify-between border-b pb-4">
             <h2 className="text-2xl font-bold text-slate-800">
-            Azure Incident Assistant
+            Azure Cloud Engineer Assistant
 <span className="ml-2 rounded-full bg-blue-100 px-2 py-1 text-xs font-semibold text-blue-700">
   v1.0
 </span>
@@ -26,13 +26,13 @@ export default function AboutModal({ isOpen, onClose }) {
             <div className="text-center">
   
               <p className="mt-2 text-slate-600">
-              An AI-powered assistant designed to help Azure engineers investigate production incidents faster by generating Root Cause Analysis (RCA), KQL queries, PowerShell recommendations, business impact analysis and preventive guidance.
+              Azure Cloud Engineer Assistant is an AI-powered platform built to simplify Azure operations and accelerate cloud engineering workflows. The current release focuses on AI-driven Incident Management with intelligent Root Cause Analysis, KQL query generation, PowerShell recommendations and production troubleshooting guidance.
               </p>
             </div>
   
             <div>
               <h3 className="mb-3 text-lg font-semibold">
-                Key Features
+                Current Features
               </h3>
   
               <ul className="grid grid-cols-2 gap-2 text-sm text-slate-700">
@@ -82,18 +82,25 @@ export default function AboutModal({ isOpen, onClose }) {
             </div>
   
             <div>
-              <h3 className="mb-2 text-lg font-semibold">
-                Upcoming Features
-              </h3>
-  
-              <ul className="list-disc pl-5 text-sm text-slate-700">
-                <li>Azure OpenAI Integration</li>
-                <li>Incident History</li>
-                <li>Incident Timeline</li>
-                <li>Analytics Dashboard</li>
-                <li>Export to Word</li>
-                <li>Multi-user workspace</li>
-              </ul>
+            <h3 className="mb-2 text-lg font-semibold">
+  Current Capability
+</h3>
+
+<ul className="list-disc pl-5 text-sm text-slate-700">
+  <li>✅ AI Incident Management</li>
+</ul>
+
+<h3 className="mt-6 mb-2 text-lg font-semibold">
+  Upcoming Capabilities
+</h3>
+
+<ul className="list-disc pl-5 text-sm text-slate-700">
+  <li>Migration Assistant</li>
+  <li>Landing Zone Planning</li>
+  <li>Infrastructure as Code</li>
+  <li>Solution Architecture</li>
+  <li>Cost & Governance Advisor</li>
+</ul>
             </div>
   
             <div className="border-t pt-4 text-center">

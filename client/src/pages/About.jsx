@@ -2,14 +2,13 @@ export default function About() {
     return (
       <div className="mx-auto max-w-5xl px-6 py-12">
   
-        <h1 className="text-4xl font-bold text-slate-800">
-          About Azure Incident Assistant
-        </h1>
-  
-        <p className="mt-4 text-lg text-slate-600">
-          Azure Incident Assistant is an AI-powered Root Cause Analysis platform
-          built for Azure Engineers, Cloud Architects and Production Support teams.
-        </p>
+  <h1 className="text-4xl font-bold text-slate-800">
+  Azure Cloud Engineer Assistant
+</h1>
+
+<p className="mt-4 text-lg text-slate-600">
+  Azure Cloud Engineer Assistant is an AI-powered platform built to simplify Azure operations, automate cloud engineering tasks, and accelerate troubleshooting for Azure Engineers, Cloud Architects, Migration Engineers, and Production Support teams.
+</p>
   
         <div className="mt-10 rounded-2xl border bg-white p-8 shadow">
   
@@ -76,18 +75,25 @@ export default function About() {
   
         <div className="mt-10">
   
-          <h2 className="text-2xl font-bold">
-            Roadmap
-          </h2>
-  
-          <ul className="mt-4 list-disc pl-6 text-slate-700 space-y-2">
-            <li>Azure OpenAI Integration</li>
-            <li>Incident History</li>
-            <li>Azure Resource Discovery</li>
-            <li>Analytics Dashboard</li>
-            <li>Team Collaboration</li>
-            <li>Subscription Plans</li>
-          </ul>
+        <h2 className="text-2xl font-bold">
+  Current Capability
+</h2>
+
+<ul className="mt-4 list-disc pl-6 text-slate-700 space-y-2">
+  <li>✅ AI Incident Management</li>
+</ul>
+
+<h2 className="mt-10 text-2xl font-bold">
+  Upcoming Capabilities
+</h2>
+
+<ul className="mt-4 list-disc pl-6 text-slate-700 space-y-2">
+  <li>Migration Assistant</li>
+  <li>Landing Zone Planning</li>
+  <li>Infrastructure as Code</li>
+  <li>Solution Architecture</li>
+  <li>Cost & Governance Advisor</li>
+</ul>
   
         </div>
   

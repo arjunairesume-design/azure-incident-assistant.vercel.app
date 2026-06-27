@@ -122,12 +122,12 @@ export default function App() {
 
 <div>
   <h1 className="text-xl font-bold tracking-tight sm:text-2xl">
-    Azure Incident Assistant
-    <span className="ml-2 rounded-full bg-white/20 px-2 py-1 text-xs">v1.0 Beta • June 2026</span>
+  Azure Cloud Engineer Assistant
+    <span className="ml-2 rounded-full bg-white/20 px-2 py-1 text-xs">v1.0 • June 2026</span>
   </h1>
 
   <p className="text-sm text-azure-100">
-  Analyze Azure production incidents in seconds with AI-generated RCA, KQL queries, PowerShell remediation and preventive recommendations.
+  AI-powered platform for Azure Incident Management, Cloud Operations, Migration, Architecture and Automation.
    </p>
 </div>
 
@@ -157,7 +157,7 @@ export default function App() {
     <span className="font-semibold">OpenAI</span> •{" "}
     <span className="font-semibold">React</span> •{" "}
     <span className="font-semibold">Node.js</span> •{" "}
-    <span className="font-semibold">Firebase</span>
+    <span className="font-semibold">Firebase Authentication</span>
   </div>
 </div>
       
@@ -222,11 +222,11 @@ export default function App() {
   <div className="mx-auto max-w-6xl px-4 text-center">
 
     <h3 className="text-sm font-semibold text-slate-800">
-      Azure Incident Assistant v1.0
+    Azure Cloud Engineer Assistant v1.0
     </h3>
 
     <p className="mt-2 text-sm text-slate-600">
-      AI-powered Azure Incident Root Cause Analysis Assistant
+    AI-powered platform for Azure Cloud Operations, Incident Management, Migration and Automation.
     </p>
 
     <p className="mt-3 text-sm text-slate-700">
@@ -234,7 +234,7 @@ export default function App() {
     </p>
 
     <p className="text-sm text-slate-500">
-      Azure Cloud Architect • AI Developer
+    Azure Cloud Architect | AI Solution Developer
     </p>
 
     <div className="mt-4 flex justify-center gap-6 text-sm">
@@ -245,7 +245,7 @@ export default function App() {
         rel="noreferrer"
         className="text-blue-600 hover:underline"
       >
-        ⭐ GitHub Repository
+        ⭐ GitHub
       </a>
 
       <a
@@ -254,13 +254,13 @@ export default function App() {
         rel="noreferrer"
         className="text-blue-600 hover:underline"
       >
-        💼 Connect on LinkedIn
+        💼 LinkedIn
       </a>
 
     </div>
 
     <p className="mt-5 text-xs text-slate-400">
-    Powered by OpenAI API • Azure OpenAI integration planned for future releases.
+    Built with OpenAI API • Continuously evolving with new Azure capabilities.
     </p><p className="mt-4 text-sm text-slate-600">
   Feedback, bug reports and feature requests are always welcome.
 </p>
@@ -270,7 +270,7 @@ export default function App() {
 </p>
     
     <p className="mt-2 text-xs text-slate-400">
-      © 2026 Nagarjuna Bolla.
+       Version 1.0 • June 2026
     </p>
 
   </div>
